@@ -5,22 +5,22 @@ const Svg = require("./lib/svg")
 
 const questions = [{
     type: 'input',
-    message: 'What is the project title?',
+    message: 'What text do you want in your logo?',
     name: 'text',
   },
   {
     type: 'input',
-    message: 'Write a short description of your project',
+    message: 'what color do you want that text to be?',
     name: 'textColor',
   },
   {
     type: 'input',
-    message: 'Write the installation process for your project',
+    message: 'what color do you want the shape to be?',
     name: 'shapeColor',
   },
   {
     type: 'list',
-    message: 'Write the installation process for your project',
+    message: 'Please pick a shape?',
     name: 'shape',
     choices: ["triangle", "circle", "square"]
   }
@@ -34,7 +34,7 @@ return fs.writeFileSync(fileName, data)
 
 function init() {
   inquirer.prompt(questions).then(response => {
-    console.log("w")
+    console.log("Generating Your Logo!")
     let shape 
     if (response.shape === "triangle") {
         shape = new Triangle()
