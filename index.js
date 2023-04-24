@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const {Triangle} = require("./lib/shapes");
+const {Square} = require("./lib/shapes");
+const {Circle} = require("./lib/shapes");
 const Svg = require("./lib/svg")
 
 const questions = [{
