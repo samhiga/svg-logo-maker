@@ -17,7 +17,7 @@
 
 ## Description 
 
-Walkthrough Video [https://drive.google.com/file/d/1fV9kAHdKocpComX_0nCaH4bNJqd2OJu6/view]
+Walkthrough Video [https://drive.google.com/file/d/1z9ssy0UEdhUgxShr56nhTteSMo44JukE/view]
 
 This program can generate a logo based on a few user inputs that includes one of three shapes(triangle, square, or circle), up to three characters, and a variety of colors.
 
