@@ -7,8 +7,14 @@ const Svg = require("./lib/svg")
 
 const questions = [{
     type: 'input',
-    message: 'What text do you want in your logo?',
+    message: 'What text do you want in your logo?(up to 3 characters)',
     name: 'text',
+    validate: function(input) {
+        if (input.length > 3) {
+          return "Please enter no more than 3 characters.";
+        }
+        return true;
+      }
   },
   {
     type: 'input',
@@ -36,7 +42,7 @@ return fs.writeFileSync(fileName, data)
 
 function init() {
   inquirer.prompt(questions).then(response => {
-    console.log("Generating Your Logo!")
+    console.log("Checkout your new logo in the test.svg file!")
     let shape 
     if (response.shape === "triangle") {
         shape = new Triangle()
