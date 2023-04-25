@@ -10,6 +10,7 @@
 | SVG | [https://developer.mozilla.org/en-US/docs/Web/SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)   |
 | Jest | [https://jestjs.io/docs/getting-started](https://jestjs.io/docs/getting-started)   |
 | NPM | [https://www.npmjs.com/](https://www.npmjs.com/)   |
+| Inquirer | [https://www.npmjs.com/package/inquirer/v/8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)   |
 
 
 
