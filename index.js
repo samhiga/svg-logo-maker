@@ -42,7 +42,7 @@ return fs.writeFileSync(fileName, data)
 
 function init() {
   inquirer.prompt(questions).then(response => {
-    console.log("Checkout your new logo in the test.svg file!")
+    console.log("Checkout your new logo in the examples folder and select the test.svg file!")
     let shape 
     if (response.shape === "triangle") {
         shape = new Triangle()
